@@ -1,0 +1,31 @@
+/* line styles */
+.axis path,
+.axis line { 
+	fill: none;
+	stroke: #333;
+	shape-rendering: crispEdges;
+}
+/* labels */
+.axis text {
+	font-family: sans-serif;
+	font-size: 11px;
+}
+
+text {
+    font-size: 12px;
+}
+
+.tooltip {
+    position: fixed;
+    display: none;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    opacity: 85%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
